@@ -1,0 +1,12 @@
+p {
+	color: green;
+	background-color: blue;
+	font-size: 20px;
+	text-align: center;
+	font-weight:bold;
+}
+
+h6 {
+	text-shadow: 2px 2px #0000FF;
+}
+/*This is to write comments in CSS code*/
