@@ -20,7 +20,7 @@ h1{
 h1::before {
     content: '';
     position: absolute;
-    width: 60%;
+    width: 46%;
     height: 4px;
     border-radius: 4px;
     background-color: #18272F;
@@ -59,10 +59,11 @@ p {
     /* text-shadow: -1px 0px aliceblue, 0px 1px aliceblue, 1px 0px aliceblue, 0px -1px aliceblue; */
 }
 
-p.info {
-    text-shadow: -1px 0px aliceblue, 0px 1px aliceblue, 1px 0px aliceblue, 0px -1px aliceblue;
-
+/* p.info {
+    text-shadow: -1px 0px #84a8c0, 0px 1px #84a8c0, 1px 0px #84a8c0, 0px -1px #84a8c0;
+    font-weight: bold;
 }
+*/
 
 /*Paragraph element hover effect // CHANGE THIS, I DON'T LIKE THIS*/
 /* p:hover {
@@ -206,12 +207,13 @@ img:hover {
 .column_1 {
     float: left;
     width: 45%; /*This ensures the column takes up half of the page width */
-    padding: 5px;
-    padding-top: 5%; /* This ensures there is space between the top of the column and our headings */
+    padding: 8px;
+    padding-top: 2%; /* This ensures there is space between the top of the column and our headings */
     height: 375px; /* This setes the height of the column  to 400px - this may need to be adjusted depending on the text you enter */
-    background-color: transparent; /*Sets background color of the columns with class Column_1 */
-    padding-left: 2.5em;
-    border-radius: 5px;
+    background-color: rgba(132, 168, 192,0.35   )
+    ; /*Sets background color of the columns with class Column_1 */
+    padding-left: 2em;
+    border-radius: 10px;
 }
 
 /*Screens 576px and smaller will display a scroll bar if the text overflows the column height */
@@ -224,9 +226,9 @@ img:hover {
 .column_2 {
     float: right;
     width: 50%;
-    padding: 10px;
-    padding-top: 1.9%;
-    height: 395px;
+    padding: 8px;
+    padding-top: 2%;
+    height: 375px;
     background-color: #304a5b;
     border-radius: 10px;
 }
