@@ -4,7 +4,9 @@
 **Introduction**
 Welcome! You can find a lot of Hanh (or Jamie's) beginning website projects in this repository. Many, if not all, of the websites and project here are for The Tech Academy's HTML and CSS Course was taken in 2022. Most are projects to get myself acclimated to coding in HTML and CSS, and there are some very simple websites as well. 
 
----
+**Languages Used**
+- HTML5
+- CSS
 
 # Table of Contents
 ---
@@ -22,6 +24,7 @@ Welcome! You can find a lot of Hanh (or Jamie's) beginning website projects in t
 
 # Basic HTML and CSS
 Holds many practice html files, and two more polished html files in the folders titled "Website ___".
+
 ## Project
 Holds practice projects while getting familiar with coding with CSS. Interactive table of contents and rollover effects with images in a webpage explored.
 
@@ -39,3 +42,14 @@ Holds a html file used to challenge the ability of the creator to use as many di
 
 # Practice Assignments
 As it says on the tin, holds practice assignments. Unpolished HTML files made during the beginning of the HTML and CSS course of The Tech Academy. Also holds the unpolished version of the site seen in the Website Project folder.
+
+---
+
+# Project Status
+Currently under development.
+
+--
+
+# Contact Info
+[Github](https://github.com/LeHanhJ)
+jamiehanhle@gmail.com or jamie.le.ha@gmail.com
