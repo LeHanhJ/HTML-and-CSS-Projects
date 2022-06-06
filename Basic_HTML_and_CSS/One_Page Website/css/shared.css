@@ -19,7 +19,7 @@ body {
 footer,
 nav {
     display:block;
-    color: #fff
+    color: #fff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -123,17 +123,17 @@ section {
 
 /*Create four  equal columns that floats next to each other*/
 .column {
-    float:inherit;
+    float:left;
     width:auto;
 }
 
 .column2 {
-    float:right;
+    float:left;
     width: auto;
 }
 
 .column3 {
-    float:inherit;
+    float:left;
     width:auto;
 }
 
@@ -144,7 +144,7 @@ section {
     display:none;
     position:fixed;
     z-index:1;
-    padding: 100px;
+    padding-top:100px;
     left: 0;
     top:0;
     width:100%;
@@ -155,8 +155,8 @@ section {
 
 /*Modal Content*/
 .modal-content {
-    position: relative;
-    background-color:#fefefe;
+    position:relative;
+    /*background-color:#fefefe;*/
     margin: auto;
     padding: 0;
     width: 90%;
@@ -176,13 +176,14 @@ section {
 .close:hover,
 .close:focus {
     color:#999;
-    text-decoration:none;
-    cursor:pointer;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /*Hide slides by default*/
 .mySlides {
     display: none;
+
 }
 
 /*Next and previous buttons*/
@@ -272,16 +273,13 @@ img.hover-shadow {
 }
 
 .menu-container {
-    max-height: px; /* CHANGE THIS!!*/
-    margin: 0% auto;
-    content: " ";
-    /*top: 0;
-    left: 0; */
-    /*position: absolute;*/ /*to the edge of the screen*/
-    width: 100%;
-    position: fixed;
-    z-index: 100;
-    /*background-color: rgba(255,255,255,0.5)*/
+    background: black;
+	display: block;
+	border-style: double;
+	color: silver;
+	font-size: 25px;
+	text-align: center;
+
 }
 
 /*=======
