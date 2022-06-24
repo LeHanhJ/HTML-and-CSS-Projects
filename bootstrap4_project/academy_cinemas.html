@@ -217,29 +217,35 @@
           </div>
           <div class="modal-body">
        
-            <form>
+            <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
               <div class="form-group row">
                 <label for="firstName3" class="col-sm-2 col-form-label">First name</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="firstName3" placeholder="First name">
+                  <input type="text" class="form-control" name="firstName3" id="firstName3" placeholder="First name" required>
                 </div>
               </div>
               <div class="form-group row">
                 <label for="lastName3" class="col-sm-2 col-form-label">Last name</label>
                 <div class="col-sm-10">
-                  <input type="text" class="form-control" id="lastName3" placeholder="Last name">
+                  <input type="text" class="form-control" id="lastName3" placeholder="Last name" required>
                 </div>
               </div>
               <div class="form-group row">
                 <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
                 <div class="col-sm-10">
-                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                  <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required>
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPhone3" class="col-sm-2 col-form-label">Phone number</label>
+                <div class="col-sm-10">
+                  <input type="tel" class="form-control" id="inputPhone3" placeholder="Phone number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" >
                 </div>
               </div>
               <div class="form-group row">
                 <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
                 <div class="col-sm-10">
-                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                  <input type="password" class="form-control" id="inputPassword3" placeholder="Password" required>
                 </div>
               </div>
             
@@ -299,6 +305,7 @@
     });
     </script>
   
+  <script src="./JS/cinemas.js"></script>
     </body>
 </html>
 
